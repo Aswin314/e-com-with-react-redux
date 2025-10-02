@@ -14,7 +14,7 @@ const Navbar = () => {
                         <input type='text' placeholder='Search Product' />
                         <button type='submit'><FaSearch /></button>
                     </form>
-                </div>
+                </div>.
                 <div>
                     <Link to='/cart'>Cart</Link>
                     <FaShoppingCart />
