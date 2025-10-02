@@ -11,15 +11,15 @@ const Navbar = () => {
                 </div>
                 <div className='relative flex-1 mx-4'>
                     <form>
-                        <input type='text' placeholder='Search Product' />
-                        <button type='submit'><FaSearch /></button>
+                        <input type='text' placeholder='Search Product' className='w-full rounded px-4 py-2' />
+                        <FaSearch className='absolute top-3 right-3 text-red-500' />
                     </form>
                 </div>.
-                <div>
+                <div className='flex items-center space-x-4'>
                     <Link to='/cart'>Cart</Link>
                     <FaShoppingCart />
-                    <button> Login | Register</button>
-                    <button><FaUser /></button>
+                    <button className='hidden md:block'> Login | Register</button>
+                    <button className='md:hidden '><FaUser /></button>
                 </div>
                 <div>
                 </div>
