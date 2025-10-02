@@ -17,12 +17,18 @@ const Navbar = () => {
                 </div>.
                 <div className='flex items-center space-x-4'>
                     <Link to='/cart'>Cart</Link>
-                    <FaShoppingCart />
+                    <FaShoppingCart className='text-lg' />
                     <button className='hidden md:block'> Login | Register</button>
                     <button className='md:hidden '><FaUser /></button>
                 </div>
                 <div>
                 </div>
+            </div>
+            <div className=' text-black py-2 px-4 flex justify-center space-x-8 text-sm font-bold'>
+                <Link to='/' className='hover:underline'>Home</Link>
+                <Link to='/shop' className='hover:underline'>Shop</Link>
+                <Link to='/about' className='hover:underline'>About</Link>
+                <Link to='/contact' className='hover:underline'>Contact</Link>
             </div>
         </nav>
     )
